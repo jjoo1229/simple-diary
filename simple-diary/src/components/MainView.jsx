@@ -19,7 +19,6 @@ function MainView({ setView }) {
     )
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         setQuestions(data);
       });
   }, []);
